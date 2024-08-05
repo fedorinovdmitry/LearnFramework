@@ -13,8 +13,8 @@ let package = Package(
             targets: ["LearnFramework"]),
     ],
     targets: [
-        .binaryTarget(
+        .target(
             name: "LearnFramework",
-            path: "./Sources/LearnFramework.xcframework")
+            dependencies: []),
     ]
 )

@@ -1,6 +1,0 @@
-framework module LearnFramework {
-  umbrella header "LearnFramework.h"
-  export *
-
-  module * { export * }
-}
